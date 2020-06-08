@@ -21,5 +21,6 @@ namespace Convert_Ru_To_En
             { 'Ъ', "" }, { 'Ы', "Y" }, { 'Ь', "" },
             { 'Э', "E" }, { 'Ю', "Iu" }, { 'Я', "Ia" },
         };
+        private static string path;
     }
 }
