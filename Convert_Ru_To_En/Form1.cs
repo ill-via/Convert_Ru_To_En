@@ -15,5 +15,14 @@ namespace Convert_Ru_To_En
         {
             InitializeComponent();
         }
+
+        private void btnPath_Click(object sender, EventArgs e)
+        {
+            FolderBrowserDialog folderBrowserDialog1 = new FolderBrowserDialog();
+            if (folderBrowserDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {                
+                this.txtPath.Text = folderBrowserDialog1.SelectedPath;
+            }
+        }
     }
 }
